@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+}
+
+body {
+	background-image: url("../img/bacground-form.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 50%;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 64px;
+	text-align: center;
+	margin: 37px 0 0 0;
+}
+
+input {outline: 0 !important;}
+
+.form-text {
+	font-size: 24px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	margin: 10px auto 0 auto;
+	width: 900px;
+}
+
+.form-desc {
+	font-size: 24px;
+	font-family: 'Oswald', sans-serif;
+	width: 261px;
+	margin: 75px 0 0 220px;
+	color: white;
+	float: left;
+}
+
+.first {
+	background-color: white;
+	border: none;
+	border-bottom: 5px solid #00D1FF;
+	height: 39px;
+	width: 540px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	color: #122659;
+	margin: 50px 0 0 0;
+}
+
+.message {
+	font-size: 24px;
+	font-family: 'Oswald', sans-serif;
+	margin: 30px 0 0 0;
+}
+
+.second {
+	background-color: white;
+	border: 5px solid #00D1FF;
+	border-radius: 20px;
+	height: 100px;
+	width: 540px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	color: #122659;
+}
+
+.form {
+	float: right;
+	margin: 25px 215px 0 0;
+}
+
+.sent {
+	margin: 30px 0 0 0;
+	background-color: #00D1FF;
+	border: none;
+	width: 166px;
+	height: 60px;
+	border-radius: 35px;
+	font-size: 24px;
+	color: #FFFFFF;
+	font-family: 'Oswald', sans-serif;
+}
+
+.sent:hover {
+	background-color: #00A7CC;
+}
+
+.arrow {
+	float: left;
+	margin: 500px 0 0 0;
+}

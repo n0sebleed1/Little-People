@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+}
+
+header {
+	background-image: url("../img/background.png");
+	width: 100%;
+	height: 970px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #838383;
+}
+
+footer {
+	height: 110px;
+}
+
+.flex {
+	display: flex;
+}
+
+.head-img {
+	width: 157px;
+	height: 121px;
+}
+
+.head-menu {
+	display: flex;
+}
+
+.head-menu-text {
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+	list-style: none;
+	margin: 23px 10px 0px 10px;
+}
+
+.whywe {
+	display: flex;
+	width: 1050px;
+	height: 400px;
+	margin: 110px auto 0 auto;
+}
+
+.whywe-name {
+	font-size: 64px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	margin: 96px 0 0 0;
+}
+
+.whywe-block {
+	 width: 296px;
+	 height: 400px;
+	 margin: 0 20px 0 20px;
+}
+
+.whywe-block-text {
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	margin: 20px 30px 0 30px;
+}
+
+.whywe-block-border {
+	width: 296px;
+	height: 311px;
+	border: 3px solid #00D1FF;
+	border-radius: 12px;
+}
+
+.whywe-block-border-img {
+	width: 220px;
+	height: 220px;
+	margin: 50px 35px;
+}
+
+.where {
+	display: flex;
+	width: 1150px;
+	margin: 50px auto 0 auto;
+}
+
+.where-name {
+	font-size: 36px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	margin: 100px 0 0 0;
+}
+
+.where-block {
+	width: 250px;
+	height: 300px;
+	margin: 0 65px 0 65px;
+}
+
+.where-block-text {
+	font-size: 24px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	margin: 10px 0 0 0;
+}
+
+.more {
+	width: 160px;
+	height: 60px;
+	margin: 40px auto 0 auto;
+}
+
+.more-button {
+	background-color: #00D1FF;
+	border: none;
+	width: 166px;
+	height: 60px;
+	border-radius: 35px;
+	font-size: 24px;
+	color: #FFFFFF;
+	font-family: 'Oswald', sans-serif;
+}
+
+.more-button:hover {
+	background-color: #00A7CC;
+}
+
+.contact {
+	width: 100%;
+	height: 625px;
+	background-color: #00D1FF;
+	margin: 25px 0 0 0;
+}
+
+.contact-one {
+	width: 662px;
+	font-size: 36px;
+	color: #FFFFFF;
+	margin: 95px 0 0 25px;
+	float: left;
+	font-family: 'Oswald', sans-serif;
+}
+
+.contact-two {
+	width: 370px;
+	font-size: 36px;
+	color: #FFFFFF;
+	margin: 95px 25px 0 0;
+	float: right;
+	font-family: 'Oswald', sans-serif;
+}
+
+.map {
+	width: 100%;
+}
+
+.foot-adress {
+	width: 306px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	margin: 37px 0 0 150px;
+	float: left;
+}
+
+.foot-politick {
+	width: 243px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	margin: 49px 150px 0 0;
+	float: right;
+}
