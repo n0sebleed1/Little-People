@@ -57,11 +57,7 @@ footer {
 	margin: 96px 0 0 0;
 }
 
-.whywe-block {
-	 width: 296px;
-	 height: 400px;
-	 margin: 0 20px 0 20px;
-}
+
 
 .whywe-block-text {
 	font-size: 20px;
@@ -172,4 +168,45 @@ footer {
 	font-size: 14px;
 	margin: 49px 150px 0 0;
 	float: right;
+}
+
+@media screen and (max-width: 1200px) {
+	* {
+		max-width: 1200px;
+	}
+
+	header {
+		width: 100%;
+		height: 607px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	* {
+		max-width: 992px;
+		margin: 0 auto;
+	}
+
+	.where-block-img {
+		width: 200px;
+		height: 200px;
+	}
+
+	.where-block {
+		width: 200px;
+	}
+
+	.whywe {
+		width: 982px;
+	}
+
+	.whywe-block {
+		width: 296px;
+		height: 400px;
+		margin: 0 10px 0 10px;
+	}
+
+	.whywe-block-border {
+		width: 280px;
+	}
 }
